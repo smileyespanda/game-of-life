@@ -60,6 +60,10 @@
                             </excludes>
                         </configuration>
                     </execution>
+                    <exclusion>
+                        <groupId>org.slf4j</groupId>
+                        <artifactId>slf4j-simple</artifactId>
+                    </exclusion>
                     <execution>
                         <id>integration-tests</id>
                         <phase>integration-test</phase>
